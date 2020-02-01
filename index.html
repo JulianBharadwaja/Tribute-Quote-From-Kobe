@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hero Section Hover Effect</title>
+    <link rel="stylesheet" type='text/css' href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!--COLUMN 1-->
+      <div class="column active">
+        <div class="content">
+          <h1>MB</h1>
+          <div class="box">
+            <h2>On Striving for Greatness</h2>
+            <p>“There’s a choice that we have to make as people, as individuals. If you want to be great at something, there’s a choice
+            you have to make. <br><br> "We all can be masters at our craft, but you have to make a choice. What I mean by that is, there are inherent
+            sacrifices that come along with that. <br><br> "Family time, hanging out with friends, being a great friend, being a great son, nephew, whatever the case may be. There are sacrifices that come along with making that decision.”</p>
+          </div>
+        </div>
+        <div class="bg bg1"></div>
+      </div>
+      <!--COLUMN 2-->
+      <div class="column">
+        <div class="content">
+          <h1>24</h1>
+          <div class="box">
+            <h2>On failure</h2>
+            <p>"When we are saying this cannot be accomplished, this cannot be done, then we are short-changing ourselves. My brain, it
+            cannot process failure. It will not process failure" <br><br> "Because if I have to sit there and face myself and tell myself, 'You're a failure,' I think that is a worse, that is almost worse than death."</p>
+          </div>
+        </div>
+        <div class="bg bg2"></div>
+      </div>
+      <!--COLUMN 3-->
+      <div class="column">
+        <div class="content">
+          <h1>8</h1>
+          <div class="box">
+            <h2>On comparisons to Michael Jordan</h2>
+            <p>“When I have the chance to guard Michael Jordan, I want to guard him. I want him. It’s the ultimate challenge. I don’t want to be the next Michael Jordan, I only want to be Kobe Bryant.”</p>
+          </div>
+        </div>
+        <div class="bg bg3"></div>
+      </div>
+      <!--COLUMN 4-->
+      <div class="column">
+        <div class="content">
+          <h1>81</h1>
+          <div class="box">
+            <h2>On being a leader</h2>
+            <p>"Leadership is lonely... I'm not going to be afraid of confrontation to get us to where we need to go." <br><br>
+            "There's a big misconception where people thinking winning or success comes from everybody putting their arms around
+            each other and singing kumbaya and patting them on the back when they mess up, and that's just not reality."<br><br>"If
+            you are going to be a leader, you are not going to please everybody. You have to hold people accountable. Even if you
+            have that moment of being uncomfortable.</p>
+          </div>
+        </div>
+        <div class="bg bg4"></div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).on('mouseover', '.container .column', function(){
+        $(this).addClass('active').siblings().removeClass('active')
+      })
+    </script>
+  </body>
+</html>
